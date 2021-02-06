@@ -2,4 +2,4 @@
 
 set -e
 
-sh -c "curl --silent --show-error --fail $1"
+sh -c "curl --silent --show-error --fail -I $1"
